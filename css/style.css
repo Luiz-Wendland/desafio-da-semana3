@@ -20,7 +20,7 @@ header #logo{
     float: left;
     height: 40px;
     width: 170px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 header #logo img{
     max-height: 100%;
@@ -38,7 +38,7 @@ h4{
 }
 #menu{
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
     list-style: none;
     margin-top: 0px;
 }
@@ -90,12 +90,12 @@ li:hover{
 }
 .icone{
     width: 64px;
-    transition: all 0.5s;
 }
 .icone:hover{
+    transition: all 0.5s;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-}
+} 
 section{
     padding: 20px;
     float: left;
